@@ -35,4 +35,4 @@ The datasets used in the experiments are publicly available and derived from pre
 
 ## Code
 
-The source code will be available once the projects funding this work are completed.
+The source code for MADMISM is available on the `code/` directory. See `code/README.md` for execution instructions.
