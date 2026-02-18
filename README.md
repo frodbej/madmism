@@ -7,7 +7,7 @@ If you use this code in your research or project, please cite the following publ
 "Multi-Objective Genetic Algorithm with Maximum-Entropy Classification and Domain-Specific Evolutionary Operators for Microorganism Selection on Microbiomes". Fernando M. Rodríguez-Bejarano, Sergio Santander-Jiménez, Miguel A. Vega-Rodríguez. Applied Soft Computing, Volume 189, 114526, Elsevier, Amsterdam, Netherlands, 2026, pp. 1-17, ISSN: 1568-4946. DOI: [10.1016/j.asoc.2025.114526](https://doi.org/10.1016/j.asoc.2025.114526).
 
 ```bibtex
-@article{rodriguez26,
+@article{rodriguez26madmism,
   title={Multi-objective genetic algorithm with maximum-entropy classification and domain-specific evolutionary operators for microorganism selection on microbiomes},
   author={Rodr{\'\i}guez-Bejarano, Fernando M. and Santander-Jim{\'e}nez, Sergio and Vega-Rodr{\'\i}guez, Miguel A.},
   journal={Applied Soft Computing},
@@ -25,13 +25,7 @@ If you use this code in your research or project, please cite the following publ
 
 ## Datasets
 
-The datasets used in the experiments are publicly available and derived from previously published microbiome studies.
-
-- The sequencing data for the YB-GG dataset was generated in the following [study](https://doi.org/10.1128/msystems.00195-16). The data was preprocessed using Qiime2. Specifically, raw sequencing reads were trimmed and quality filtered, and a closed-reference alignment with the GreenGenes database was performed to generate the OTU table. Then, centered log-ratio transformation was applied, OTUs with zero variance were discarded, and the data was scaled. The processed dataset used as input to MADMISM is located in the `datasets` folder.
-- The OTU tables and sample labels for CRC-GG and CRC-RS are available [here](https://knightslab.org/MLRepo/docs/kostic_healthy_tumor.html).
-- The OTU tables and sample labels for LH-GG and LH-RS are available [here](https://knightslab.org/MLRepo/docs/ravel_nugent_category.html).
-- The OTU tables and sample labels for BW-GG and BW-RS are available [here](https://knightslab.org/MLRepo/docs/ravel_white_black.html).
-- The OTU table and sample labels for the CH-RS are available [here](https://knightslab.org/MLRepo/docs/qin_healthy_cirrhosis.html).
+The `datasets/` directory contains the datasets used in this project.
 
 ## Code
 
